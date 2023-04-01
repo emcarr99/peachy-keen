@@ -1,0 +1,54 @@
+:root {
+  --dark-text: black;
+  --links: #FF5D8F;
+  --contrast: #db5879;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #FADDE1;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: var(--dark-text);
+}
+
+/* styles the navbar and logo */
+.navhead {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.logo {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* displayed in a line within flex container */
+.navbar li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+a[href], a:link {
+  color: var(--links);
+  text-decoration: underline;
+}
+
+/* on hover, links get slightly darker and cursor changes to pointer */
+.navbar li a:hover {
+  color: var(--contrast);
+  cursor: pointer;
+}
