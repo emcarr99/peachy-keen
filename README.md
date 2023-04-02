@@ -31,3 +31,6 @@ Finally, if you want to get in touch with me then click the 'Contact' link and i
 
 <img src="Assets\letschat.png">
 
+## License
+Mit License
+
