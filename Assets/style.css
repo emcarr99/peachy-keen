@@ -71,7 +71,7 @@ h1 {
   width: 100%%;
   font-size: 25px;
   text-align: center;
-  line-height: 20px;
+  line-height: 32px;
   margin-bottom: 20px;
 }
 
@@ -180,6 +180,10 @@ height: auto;
   transition: all .2s ease-in-out;
 }
 
+#work img:hover {
+  cursor: grab;
+}
+
 #work p {
   font-size: 30px;
   font-weight: bold;
@@ -230,7 +234,7 @@ height: auto;
   }
 
   .container {
-    width: 100%;
+    width: 80%%;
   }
 }
 
@@ -245,6 +249,7 @@ height: auto;
 
   .container {
     height: auto;
+    width: 100%;
   }
 
   #about p {
