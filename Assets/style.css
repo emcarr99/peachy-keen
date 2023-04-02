@@ -62,6 +62,7 @@ h1 {
   text-align: center;
 }
 
+/* positions/styles slide show elements */
 .container {
   position: relative;
 }
@@ -74,6 +75,7 @@ h1 {
   cursor: pointer;
 }
 
+/* previous&next buttons */
 .prev, .next {
 cursor: pointer;
 position: absolute;
@@ -94,6 +96,7 @@ user-select: none;
   border-radius: 3px 0 0 3px;
 }
 
+/* on hover, adds a pink background */
 .prev:hover, .next:hover {
   background-color: var(--links);
 }
