@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-This site can be accesed here: 
+This site can be accesed here: https://emcarr99.github.io/peachy-keen/
 
 To navigate through the site use the four links in the navigation bar under the logo (Please note that the location of the navigation bar may change depending on your screen size!), if on a larger screen then the navigation bar is top right of the screen. When a user hovers over the links they will appear slightly darker. 
 
