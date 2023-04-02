@@ -34,9 +34,62 @@
     <p>Outside of work and academics I love to read! I'm a thriller fanatatic, it makes up for my real-life caution. Reading a nerve-wracking book is a feeling I will never get over. Other than reading, I enjoy learning new crafts, listening to Taylor Swift (or music in general *add winky emoji), and going to concerts. I currently live in Austin, Texas with my boyfriend and our cat Laulu.</p>
   <!--enter self pic, pic of ben & i, pic of laulu-->
   </article>
+  <!-- using divs to create slideshow -->
   <div class="container">
-    <div></div>
+    <div class="slides">
+      <div class="nmbrtxt">1/5</div>
+        <img src="./Assets/Hi-I'mEmma.png" style="width: 50%">
+    </div>
+ 
+    <div class="slides">
+      <div class="nmbrtxt">2/5</div>
+        <img src="./Assets/icecreammuseum.png" style="width:50%">
+    </div>
+
+    <div class="slides">
+      <div class="nmbrtxt">3/5</div>
+        <img src="./Assets/hilaulu.png" style="width:50%">    
+    </div>
+
+    <div class="slides">
+      <div class="nmbrtxt">4/5</div>
+        <img src="./Assets/thatsben.png" style="width:50%">
+    </div>
+    
+    <div class="row">
+      <div class="column">
+        <img class="clicker" src="./Assets/Hi-I'mEmma.png" style="width:50%" onclick="currentSlide(1)" alt="red hair girl smiling">
+      </div>
+
+      <div class="column">
+        <img class="clicker" src="./Assets/icecreammuseum.png" style="width:100%" onclick="currentSlide(2)" alt="girl in swing sundaes behind her">
+      </div>
+
+      <div class="column">
+        <img class="clicker" src="./Assets/hilaulu.png" style="width:100%" onclick="currentSlide(3)"
+          alt="gray cat sleeping">
+      </div>
+
+      <div class="column">
+        <img class="clicker" src="./Assets/thatsben.png" style="width:100%" onclick="currentSlide(4)" alt="guy and girl smiling text says 'that's ben'">
+      </div>
   </div>
+    <!-- next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class="next" onclick="plusSlides(1)">&#10094</a>
+<!-- thumbnails -->
+    <div class="row">
+      <div class="column">
+        <img class="clicker" src="Assets/Hi-I'mEmma.png" style="width: 100%" onclick="currentSlide(1)" alt="Girl with red hair smiling">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
 
   <section>
     <h2>Projects</h2>
@@ -59,6 +112,8 @@
       <li><a href="https://github.com/emcarr99">Follow me on Github</a></li>
     </ul>
   </footer>
+
+  <script src="./Assets/script.js"></script>
 </main>
 
 </body>
