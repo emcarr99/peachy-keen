@@ -58,7 +58,7 @@
     
     <div class="row">
       <div class="column">
-        <img class="clicker" src="./Assets/Hi-I'mEmma.png" style="width:50%" onclick="currentSlide(1)" alt="red hair girl smiling">
+        <img class="clicker" src="./Assets/Hi-I'mEmma.png" style="width:100%" onclick="currentSlide(1)" alt="red hair girl smiling">
       </div>
 
       <div class="column">
@@ -86,19 +86,29 @@
   </div>
   <section id="work">
     <h2 class="section-heading">Projects</h2>
-    <figure>
-      <p><a href="https://emcarr99.github.io/mossball/">Accessibility Code Refactor</a></p>
-      <!-- ADD ICON -->
+    <figure id="feature">
+      <p><a href="https://emcarr99.github.io/mossball/" target="_blank">Accessibility Code Refactor</a></p>
+      <a href="https://emcarr99.github.io/mossball/" target="_blank"><img src="./Assets/CodeRefactor.png" alt="'Accessibility Code Refactor' over a pink sun"></a>
     </figure>
 
-    <figure>
-      <p>COMING SOON</p>
-      <!-- add icon -->
-    </figure>
-  </section>
+ <!-- section will become flex row when screen is larger -->
+  <div id="qrow">
+  <figure>
+    <img src="./Assets/ComingSoon.png" alt="coming soon sign">
+  </figure>
 
-  <footer>
-    <h3>Let's Chat!</h3>
+  <figure>
+    <img src="./Assets/ComingSoon.png" alt="coming soon sign">
+  </figure>
+
+    <figure>
+      <img src="./Assets/ComingSoon.png" alt="coming soon sign">
+    </figure>
+   </div>
+   </section>
+
+  <footer id="contactme">
+    <h2>Let's Chat!</h2>
     <ul>
       <li><a href="mailto:lorenagracex@gmail.com"> Send me an email</a></li>
       <li><a href="tel:9153459374">Call Me Beep Me</a></li>
