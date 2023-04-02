@@ -24,7 +24,7 @@ To read about me and see my pictures just click the 'About' link in the navigati
 
 To checkout my work, which is a lot of coming soon right now, just click on the 'Projects' link. On larger screens, the 'coming soon' icons fall under my featured project. To vist any project simply click the link or image with the project's title.
 
-<img src="Assets\projectslink.png">
+<img src="Assets\projectexamaple.png">
 <img src="Assets\comingsoonexam.png">
 
 Finally, if you want to get in touch with me then click the 'Contact' link and it will bring to my info! Click on the link that fits what you're looking for and you'll find me. 
