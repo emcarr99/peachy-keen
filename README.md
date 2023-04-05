@@ -19,17 +19,17 @@ To navigate through the site use the four links in the navigation bar under the 
 
 To read about me and see my pictures just click the 'About' link in the navigation bar. 
 
-<img src="Assets\aboutmeexample.png">
-<img src="Assets\slideshowaexam.png">
+<img src="Assets\Images\aboutmeexample.png">
+<img src="Assets\Images\slideshowaexam.png">
 
 To checkout my work, which is a lot of coming soon right now, just click on the 'Projects' link. On larger screens, the 'coming soon' icons fall under my featured project. To vist any project simply click the link or image with the project's title.
 
-<img src="Assets\projectexamaple.png">
-<img src="Assets\comingsoonexam.png">
+<img src="Assets\Images\projectexamaple.png">
+<img src="Assets\Images\comingsoonexam.png">
 
 Finally, if you want to get in touch with me then click the 'Contact' link and it will bring to my info! Click on the link that fits what you're looking for and you'll find me. 
 
-<img src="Assets\letschat.png">
+<img src="Assets\Images\letschat.png">
 
 ## License
 MIT License
