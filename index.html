@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="./Assets/style.css">
 
 </head>
@@ -22,7 +23,30 @@
     </nav>
   </header>
 <main>
-  <article id="about">
+<section id="work">
+    <h2 class="section-heading">Projects</h2>
+    <figure id="feature">
+      <p><a href="https://emcarr99.github.io/mossball/" target="_blank">Accessibility Code Refactor</a></p>
+      <a href="https://emcarr99.github.io/mossball/" target="_blank"><img src="./Assets/Images\coderefactorupdateimg.png" alt="'Accessibility Code Refactor' over a pink sun"></a>
+    </figure>
+
+ <!-- section will become flex row when screen is larger -->
+  <div id="qrow">
+  <figure>
+    <img src="./Assets/Images\ComingSoon.png" alt="coming soon sign">
+  </figure>
+
+  <figure>
+    <img src="./Assets/Images\ComingSoon.png" alt="coming soon sign">
+  </figure>
+
+    <figure>
+      <img src="./Assets/Images\ComingSoon.png" alt="coming soon sign">
+    </figure>
+   </div>
+   </section>
+
+<article id="about">
     <h1>Howdy, I'm Emma!</h1>
     <p>It’s so nice to meet you! Thanks for coming by to learn a little more about me. I’m Emma and I’m currently enrolled in
     the full-stack coding bootcamp at UT Austin. I chose to embark on this journey for three simple reasons:</p>
@@ -94,29 +118,6 @@
       </div>
     </div>
   </div>
-  <section id="work">
-    <h2 class="section-heading">Projects</h2>
-    <figure id="feature">
-      <p><a href="https://emcarr99.github.io/mossball/" target="_blank">Accessibility Code Refactor</a></p>
-      <a href="https://emcarr99.github.io/mossball/" target="_blank"><img src="./Assets/Images\coderefactorupdateimg.png" alt="'Accessibility Code Refactor' over a pink sun"></a>
-    </figure>
-
- <!-- section will become flex row when screen is larger -->
-  <div id="qrow">
-  <figure>
-    <img src="./Assets/Images\ComingSoon.png" alt="coming soon sign">
-  </figure>
-
-  <figure>
-    <img src="./Assets/Images\ComingSoon.png" alt="coming soon sign">
-  </figure>
-
-    <figure>
-      <img src="./Assets/Images\ComingSoon.png" alt="coming soon sign">
-    </figure>
-   </div>
-   </section>
-
   <footer id="contactme">
     <h2>Let's Chat!</h2>
     <ul>
@@ -125,7 +126,8 @@
       <li><a href="https://github.com/emcarr99">Follow me on Github</a></li>
     </ul>
   </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="Assets\Images\script.js"></script>
 </main>
 
