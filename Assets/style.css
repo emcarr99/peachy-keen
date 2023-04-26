@@ -95,3 +95,11 @@ ul {
   font-family: 'Luckiest Guy', cursive;
   padding-left: 20px;
 }
+
+.footStyle {
+  color: var(--dark-text) !important;
+  background-color: transparent !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
