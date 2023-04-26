@@ -11,6 +11,10 @@
   background-color: var(--background);
 }
 
+html {
+  cursor: url("./Images/cursor.png"), auto !important;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -26,6 +30,11 @@ body {
   font-size: 15px;
   font-weight: bold;
 }
+
+.nav-link:hover {
+  cursor: url("./Images/pointerclick.png"), auto !important; 
+}
+
 .custom-nav {
   background-color: transparent;
   box-shadow: none;
@@ -33,4 +42,44 @@ body {
 
 .logo {
   width: 40%;
+}
+
+.btn {
+  background-color: var(--contrast);
+}
+
+.btn:hover {
+  cursor: url("./Images/pointerclick.png"), auto !important; 
+  background-color: #F8A191;
+}
+
+/* .work {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.captionStyle {
+  color: var(--dark-text);
+  background-color: transparent;
+}
+
+.linkCustom {
+  color: var(--dark-text);
+  background-color: white;
+  border: none; 
+  border-radius: 2rem;
+  font-size: 30px;
+  padding: 1rem 2rem;
+  border-width: 0.2rem; 
+  border-style: solid; 
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.dashed-line {
+  border-top: 1px dashed #000;
+  margin-top: 20px; 
+}
+
+.contrastText {
+  font-family: 'Luckiest Guy', cursive;
 }
