@@ -60,4 +60,17 @@ body {
 
 .captionStyle {
   color: var(--dark-text);
+  background-color: transparent;
+}
+
+.linkCustom {
+  color: var(--dark-text);
+  background-color: white;
+  border: none; 
+  border-radius: 2rem;
+  font-size: 30px;
+  padding: 1rem 2rem;
+  border-width: 0.2rem; 
+  border-style: solid; 
+  font-family: 'Luckiest Guy', cursive;
 }
