@@ -21,6 +21,17 @@ body {
   color: var(--dark-text);
 }
 
+p {
+  text-align: center;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  text-align: center;
+}
+
 .navbar {
   justify-content: space-around;
 }
@@ -82,4 +93,5 @@ body {
 
 .contrastText {
   font-family: 'Luckiest Guy', cursive;
+  padding-left: 20px;
 }
